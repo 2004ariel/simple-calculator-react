@@ -40,7 +40,7 @@ export default function App() {
       </Pressable>
 
       <Text style={[styles.resultado, resultado >= 0 ? styles.positivo : styles.negativo]}>
-        Resultado: {resultado}
+        Seu Resultado é: {resultado}
       </Text>
       <StatusBar style="auto" />
     </View>
