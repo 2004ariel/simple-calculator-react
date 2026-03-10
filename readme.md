@@ -1,4 +1,4 @@
-# Primeiro Projeto
+# Projeto inicial em React Native
 
 Projeto simples em React Native com Expo: uma calculadora que soma dois valores numericos.
 
