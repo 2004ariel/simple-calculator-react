@@ -1,12 +1,12 @@
 {
   "name": "primeiro-projeto",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "portal-aluno/index.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "start": "npm --prefix portal-aluno run start",
+    "android": "npm --prefix portal-aluno run android",
+    "ios": "npm --prefix portal-aluno run ios",
+    "web": "npm --prefix portal-aluno run web"
   },
   "dependencies": {
     "expo": "~55.0.4",
